@@ -9,9 +9,21 @@
     "test": "jest",
     "lint": "eslint ."
   },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts/"
+    ]
+  },
   "dependencies": {
     "react": "16.11.0",
-    "react-native": "0.62.0"
+    "react-native": "0.62.0",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-iphone-x-helper": "^1.2.1",
+    "react-native-qrcode": "^0.2.7",
+    "react-native-qrcode-svg": "^6.0.3",
+    "react-native-svg": "^12.0.3",
+    "react-native-vector-icons": "^6.6.0",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
